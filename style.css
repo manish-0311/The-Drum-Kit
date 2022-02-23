@@ -1,0 +1,117 @@
+/***********************
+    LAYOUT
+***********************/
+/* @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap'); */
+
+body {
+    width: 90%;
+    box-sizing: border-box;
+    background-color:rgb(7, 15, 22);
+    font-family:  cursive;
+    margin: 2em ;
+    background-image: url(Media/piano.jpg);
+    background-size: contain;
+    background-blend-mode: overlay;
+}
+
+/* Drum Kit */
+#header {
+    border: 0.5em solid rgb(104, 29, 165);
+    border-radius: 5em ;
+    
+    font-size: 2rem;
+    color: rgb(255,0 , 0);
+    font-weight: bolder;
+    text-align: center;
+    margin: 1em;
+    margin-bottom: 2em;
+    padding: 0.25em 1em;
+}
+
+
+#container {
+    
+    margin: 1em 2em;
+    padding: 2em 5em;
+    
+    
+    
+
+}
+
+
+/* All parts of drum kit  */
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* buttons */
+.button {
+    border: 0.1em solid rgb(255, 238, 0);
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 0.25em;
+    font-family:  cursive;
+    box-shadow: 0.2em;
+    color:rgb(255, 238, 0);
+    font-size: 3rem;
+    margin: 0.25em;
+    padding: 0.5em;
+    width: 10%; height: 10%;
+    text-align: center;
+
+}
+
+/* Animation effects to be triggered on keypress and clicking */
+.animation {
+    background-color: rgba(13, 233, 97, 0.568);
+    transform: scale(0.75em);
+    background-blend-mode: overlay;
+    border-color: azure;
+    animation-duration: 1s;
+}
+
+.a {
+    background-image: url(Media/images/tom1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.s {
+    background-image: url(Media/images/tom2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.d {
+    background-image: url(Media/images/tom3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.f {
+    background-image: url(Media/images/tom4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.j {
+    background-image: url(Media/images/snare.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.k {
+    background-image: url(Media/images/crash.png);        
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.l {
+    background-image: url(Media/images/kick.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
