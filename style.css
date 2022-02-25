@@ -9,7 +9,6 @@ body {
     box-sizing: border-box;
     background-color:rgb(7, 15, 22);
     font-family:  cursive;
-    margin: 2em ;
     background-image: url(Media/piano.jpg);
     background-size: contain;
     background-blend-mode: overlay;
